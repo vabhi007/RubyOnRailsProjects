@@ -12,10 +12,17 @@ default: &default
 development:
   <<: *default
   database: MyRubyBlog
-
+  username: postgres
+  password: 1764Vs0@
+  
 test:
   <<: *default
   database: MyRubyBlog
+  username: postgres
+  password: 1764Vs0@
+  
 production:
   <<: *default
   database: MyRubyBlog
+  username: postgres
+  password: 1764Vs0@
