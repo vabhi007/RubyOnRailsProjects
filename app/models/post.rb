@@ -2,7 +2,7 @@ class Post < ApplicationRecord
 	belongs_to :category
 	
 	def Create
-		Post.Create(Post_Params)
+		Post.Create(Post_params)
 	end
 	
 	private
